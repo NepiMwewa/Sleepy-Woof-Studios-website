@@ -187,7 +187,8 @@ form figcaption{
   border-width: 0px 5px 5px 0px;
   border-color: #222323;
 
-
+  -webkit-box-shadow: 2px 2px 5px 1px #222323;
+  box-shadow: 2px 2px 5px 1px #222323;
 
   float: left;
 }
@@ -425,8 +426,9 @@ footer>ul>li{
   }
 
   #showcase_form{
-
+    margin: 0px 10%;
     position: relative;
+
     animation-name: showcase_anim;
     animation-duration: 2.5s;
     animation-delay: 1.5s;
