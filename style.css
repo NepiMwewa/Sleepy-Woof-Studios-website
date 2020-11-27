@@ -325,7 +325,11 @@ margin: 0px 1rem;
 
 #bug_report_form label{
   margin: 1rem;
+  padding: .5rem 2rem;
   font-size: 2rem;
+
+  background-color: #222323;
+  border-radius: 30px;
 }
 
 .bug_report_sub_fieldsets{
@@ -337,12 +341,45 @@ margin: 0px 1rem;
 #bug_report_form select{
   padding: .5rem;
   font-size: 1.8rem;
+
   border-width: 4px;
   border-radius: 5px;
   border-color: #222323;
 
-  color:  #e3e2d8;
+  color: #e3e2d8;
   background-color: #0b3840;
+}
+
+#bug_descript{
+  display: none;
+}
+
+#bug_report_form textarea{
+  display: block;
+  margin: auto;
+  width: 95%;
+
+  padding: .3rem;
+  font-size: 1.8rem;
+}
+
+#bug_report_form input{
+  font-size: 2rem;
+  padding: .8rem 1.5rem;
+  margin: .5rem 1rem;
+
+  border-width: 4px;
+  border-radius: 5px;
+  border-color: #222323;
+
+  color: #e3e2d8;
+  background-color: #222323;
+}
+#clear{
+  float: left;
+}
+#submit{
+  float: right;
 }
 /*End of Contact page stles*/
 
