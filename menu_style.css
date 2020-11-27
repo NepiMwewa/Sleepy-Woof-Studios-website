@@ -156,10 +156,6 @@
   transform: rotate(90deg);
   }
 
-  .menu-wrap .toggler:checked:hover + .hamburger > div {
-    transform: rotate(135deg);
-  }
-
   .menu-wrap .toggler{
     width: 6rem;
     height: 6rem;

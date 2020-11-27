@@ -92,12 +92,12 @@
     </div>
   </article>
 
-  <article>
-    <form>
-      <fieldset>
+  <article >
+    <form id="bug_report_form">
+      <fieldset id="bug_report_main_fieldset">
         <legend>Bug Report</legend>
 
-        <fieldset>
+        <fieldset class="bug_report_sub_fieldsets">
           <label>Game</label>
           <select name="question1">
                 <option value="belldor">Belldor</option>
@@ -107,7 +107,7 @@
           </select>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="bug_report_sub_fieldsets">
           <label>Bug Type</label>
           <select name="question2">
                 <option value="graphical">Graphical</option>
@@ -117,7 +117,7 @@
           </select>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="bug_report_sub_fieldsets">
           <label for="bugDescript"></label>
           <textarea rows="8" cols="70" id="bugDescript">Enter bug description...</textarea>
         </fieldset>
