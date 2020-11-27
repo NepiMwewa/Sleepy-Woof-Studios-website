@@ -298,6 +298,46 @@
 
 /*Start of Contact page stles*/
   /*Start of contact cards*/
+
+
+  .contact_card{
+    width: 90%;
+    margin: 4rem auto;
+
+    text-align: center;
+
+  	border-style: solid;
+    border-width: 5px;
+
+    border-color: #222323;
+    background-color: #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 2px #222323;
+    box-shadow: 2px 2px 8px 2px #222323;
+  }
+
+  .contact_card h2{
+    display: block;
+    font-size: 4rem;
+    font-family: monospace;
+
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem auto;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+  }
+
+  .contact_card p{
+    font-size: 1.5rem;
+    margin: 3rem 1rem;
+    line-height: 3rem;
+  }
   /*End of contact cards
 
   /*Start of Form*/
