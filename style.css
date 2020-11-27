@@ -297,90 +297,103 @@
 
 
 /*Start of Contact page stles*/
+  /*Start of contact cards*/
+  /*End of contact cards
 
+  /*Start of Form*/
+  #bug_report_form form{
+  margin: 0px 1rem;
+  }
 
-#bug_report_form form{
-margin: 0px 1rem;
-}
+  #bug_report_main_fieldset{
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #222323;
+    background-color: #396073;
+  }
 
-#bug_report_main_fieldset{
+  #bug_report_form legend{
+      font-size: 4rem;
+      font-family: monospace;
+      text-align: center;
+      background-color: #222323;
+      border-radius: 30px;
+      padding: .5rem 3rem;
+      margin: 1rem;
 
-  border-style: solid;
-  border-width: 4px;
-  border-color: #222323;
-  background-color: #396073;
-}
+      text-shadow: 2px 2px 2px #396073;
+  }
 
-#bug_report_form legend{
-    font-size: 4rem;
-    font-family: monospace;
-    text-align: center;
+  #bug_report_form label{
+    margin: 1rem;
+    padding: .5rem 2rem;
+    font-size: 2rem;
+
     background-color: #222323;
     border-radius: 30px;
-    padding: .5rem 3rem;
-    margin: 1rem;
+  }
 
-    text-shadow: 2px 2px 2px #396073;
-}
+  .bug_report_sub_fieldsets{
+    border: none;
 
-#bug_report_form label{
-  margin: 1rem;
-  padding: .5rem 2rem;
-  font-size: 2rem;
 
-  background-color: #222323;
-  border-radius: 30px;
-}
+  }
 
-.bug_report_sub_fieldsets{
-  border: none;
+  #bug_report_form select{
 
-  margin: 1rem 0rem;
-}
+    margin: 2rem;
+    padding: .75rem 1rem;
+    font-size: 1.8rem;
 
-#bug_report_form select{
-  padding: .5rem;
-  font-size: 1.8rem;
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #222323;
 
-  border-width: 4px;
-  border-radius: 5px;
-  border-color: #222323;
+    color: #e3e2d8;
+    background-color: #0b3840;
+  }
 
-  color: #e3e2d8;
-  background-color: #0b3840;
-}
+  #bug_descript{
+    display: none;
+  }
 
-#bug_descript{
-  display: none;
-}
+  #bug_report_form textarea{
+    display: block;
+    margin: auto;
+    width: 95%;
 
-#bug_report_form textarea{
-  display: block;
-  margin: auto;
-  width: 95%;
+    padding: .3rem;
+    font-size: 1.8rem;
 
-  padding: .3rem;
-  font-size: 1.8rem;
-}
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #222323;
 
-#bug_report_form input{
-  font-size: 2rem;
-  padding: .8rem 1.5rem;
-  margin: .5rem 1rem;
+    color: #e3e2d8;
+    background-color: #0b3840;
+  }
 
-  border-width: 4px;
-  border-radius: 5px;
-  border-color: #222323;
+  #bug_report_form input{
+    font-size: 2rem;
+    padding: .8rem 1.5rem;
+    margin: .5rem 1rem;
 
-  color: #e3e2d8;
-  background-color: #222323;
-}
-#clear{
-  float: left;
-}
-#submit{
-  float: right;
-}
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #222323;
+
+    color: #e3e2d8;
+    background-color: #222323;
+  }
+  #clear{
+    float: left;
+  }
+  #submit{
+    float: right;
+  }
+  /*End of Form*/
 /*End of Contact page stles*/
 
 /*Tablet styles*/

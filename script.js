@@ -26,6 +26,7 @@ function init() {
   window.addEventListener("resize", resizeImage);
   resizeImage();
 
+
   //change the slideshow to the next slide
   nextSlide.onclick = function(){
     var windowSize = window.innerWidth;
