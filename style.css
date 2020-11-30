@@ -66,6 +66,10 @@
   background: linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
   }
 
+  figcaption{
+    display: none;
+  }
+
   footer{
     text-align: center;
     width: 100%;
@@ -200,10 +204,6 @@
     box-shadow: 2px 2px 5px 1px #222323;
 
     text-shadow: 2px 2px 2px #396073;
-  }
-
-  #games_section figcaption{
-    display: none;
   }
 
   .game_card{
