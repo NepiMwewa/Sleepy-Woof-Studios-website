@@ -109,7 +109,8 @@
   /*Start of Most Popular styles*/
 
   #showcase_form{
-  margin: 0px 1rem;
+  width: 85%;
+  margin: auto;
 
   }
 
@@ -223,7 +224,7 @@
     -webkit-box-shadow: 2px 2px 12px 2px #222323;
     box-shadow: 2px 2px 12px 2px #222323;
 
-    width: 26rem;
+    width: 85%;
     margin: 4rem auto;
   }
 

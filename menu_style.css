@@ -144,7 +144,7 @@
 /*End of menu hamburger styles*/
 
 /*Tablet styles*/
-@media (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
   /* menu hamburger click animation */
   .menu-wrap .toggler:checked + .hamburger > div {
   transform: rotate(225deg);
