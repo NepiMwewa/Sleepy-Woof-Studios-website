@@ -154,7 +154,8 @@
     background-color: #396073;
     width: 100%;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
+    border-radius: 5px;
     border-color: #222323;
 
     display: flex;
@@ -284,7 +285,9 @@
 
     border-style: solid;
     border-width: 2px;
+    border-radius: 5px;
     border-color: #e3e2d8;
+
 
     text-decoration: none;
 
@@ -456,9 +459,9 @@
     padding: .8rem 1.5rem;
     margin: .5rem 1rem;
 
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 5px;
-    border-color: #222323;
+    border-color: #e3e2d8;
 
     color: #e3e2d8;
     background-color: #222323;

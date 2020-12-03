@@ -115,6 +115,20 @@
   }
   /*End of Home styles*/
 
+  /*Start of Contact styles*/
+  #contact_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .contact_card{
+    width: 25rem;
+    margin: 4rem 16px;
+  }
+
+  
+  /*End of Contact styles*/
 
   /*Start of About styles*/
   #About_card{
