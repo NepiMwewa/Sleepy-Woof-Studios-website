@@ -28,7 +28,33 @@ function init() {
 
 
   //change the slideshow to the next slide
-  nextSlide.onclick = function(){
+  nextSlide.onclick = testNextFunction;
+  nextSlide.ontouch = testNextFunction;
+
+  var testCounter = 0;
+  //add delay so that the button won't double tap
+  function testNextFunction(){
+    if(testCounter <= 0)
+    {
+      ++testCounter;
+      nextSlideFunction();
+      setTimeout(function(){testCounter = 0;}, 150);
+    }
+  }
+  previousSlide.onclick = testPrevFunction;
+  previousSlide.ontouch = testPrevFunction;
+
+  //add delay so that the button won't double tap
+  function testPrevFunction(){
+    if(testCounter <= 0)
+    {
+      ++testCounter;
+      previousSlideFuntion();
+      setTimeout(function(){testCounter = 0;}, 150);
+    }
+  }
+
+  function nextSlideFunction(){
     var windowSize = window.innerWidth;
 
     if(windowSize < 768){ // if mobile
@@ -66,7 +92,7 @@ function init() {
   }
 
   //change the slideshow to the previous slide
-  previousSlide.onclick = function(){
+  function previousSlideFuntion(){
     var windowSize = window.innerWidth;
     if(windowSize < 768){ // if mobile
 
